@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://blaniqwpgjuj1"]
+
+[ext_resource type="Texture2D" uid="uid://c5f5ueh5d5lv3" path="res://assets/Objects/Basic_Grass_Biom_things.png" id="1_8x8dx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yoh7s"]
+size = Vector2(2, 28)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_agc10"]
+radius = 6.0
+
+[node name="flower" type="Area2D" unique_id=2145436823]
+collision_mask = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=869330370]
+texture = ExtResource("1_8x8dx")
+region_enabled = true
+region_rect = Rect2(128.1651, 31.58255, 15.8349, 31.046074)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=964192199]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_yoh7s")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=69299631]
+position = Vector2(0, -7)
+shape = SubResource("CircleShape2D_agc10")

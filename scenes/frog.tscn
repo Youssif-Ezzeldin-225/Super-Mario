@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c1igdj7g7tqwb"]
+
+[ext_resource type="Texture2D" uid="uid://dsu0pd7ckkrrj" path="res://assets/Mario1/Characters/Enemies.png" id="1_qyo2l"]
+[ext_resource type="PackedScene" uid="uid://bmvqiq0coex0s" path="res://scenes/kllzone.tscn" id="2_rq8tc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1g2vb"]
+atlas = ExtResource("1_qyo2l")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ybftx"]
+atlas = ExtResource("1_qyo2l")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4ifle"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1g2vb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ybftx")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uu7fg"]
+radius = 7.0
+
+[node name="frog" type="Node2D" unique_id=1523326069]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=488233833]
+sprite_frames = SubResource("SpriteFrames_4ifle")
+autoplay = "default"
+frame_progress = 0.87038904
+
+[node name="Kllzone" parent="." unique_id=182147530 instance=ExtResource("2_rq8tc")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Kllzone" unique_id=240059277]
+position = Vector2(0, 9)
+shape = SubResource("CircleShape2D_uu7fg")
