@@ -4,7 +4,7 @@ I made a game like Super Mario, but on my own. This game is too simple. I made t
 <img src="https://i.ibb.co/mZwwXgn/Super-Mario.png" height=240 width=426.66>
 <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTzQxg8esfnRUIquKCiHBLtXbz6vNlcWWug&s">
 ### How to win
-You should only reach the yellow land that looks like a desert. When you reach the door, consider yourself a winner. <p>
+This is too simple game that when you reach the yellow land that looks like a desert. When you reach the door, consider yourself a winner. <p>
 <img src="https://i.ibb.co/KcDdvNQ4/end.png" height=240 width=426.66>
 
 ## How to play
