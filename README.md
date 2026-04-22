@@ -1,9 +1,10 @@
 # Super Mario 
 
-I made a game like Super Mario, but on my own. This game is too simple. I made this game while practising on Godot. This is a peaceful game that does not have any danger except for falling onto the sea or hitting the turtle or the other little enemy. I liked Mario Forever 2003 and how the people can edit it and add new levels. I thought of why not trying to make my own levels. As I have said, this is the first game that I made on Godot. I made it for training to make my real level. <p>
+I made a game like Super Mario, but on my own. This game is too simple. I made this game while practising on Godot. This is a peaceful game that does not have any danger except for falling onto the sea or hitting Goomba or Koopa Troopa. You can't kill Goomba or Koopa Troopa. I liked Mario Forever 2003 and how the people can edit it and add new levels. I thought of why not trying to make my own levels. As I have said, this is the first game that I made on Godot. I made it for training to make my real level. <p>
 <img src="https://i.ibb.co/mZwwXgn/Super-Mario.png" height=240 width=426.66>
 <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTzQxg8esfnRUIquKCiHBLtXbz6vNlcWWug&s">
 ### How to win
+You can't kill Goomba or Koopa Troopa.<br>
 This is too simple game that when you reach the yellow land that looks like a desert. When you reach the door, consider yourself a winner. <p>
 <img src="https://i.ibb.co/KcDdvNQ4/end.png" height=240 width=426.66>
 
